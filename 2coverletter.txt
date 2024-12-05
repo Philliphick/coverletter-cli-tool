@@ -1,0 +1,12 @@
+
+Dear Hiring Team at kmfkwmfwemfwemfwelf,
+I’m thrilled to apply for the selfmkfmwefweofmwe position at kmfkwmfwemfwemfwelf, where innovation, collaboration, and excellence take center stage. With hands-on experience in React, HTML, CSS, TailwindCSS, Storybook, Git, Next.js, Laravel coupled with my passion for creating seamless, accessible, and user-friendly platforms, I’m excited about the opportunity to contribute to your mission of delivering exceptional gaming experiences.
+In my current role as a Junior Developer at Sunderland Software City, I’ve:
+Built and documented responsive front-ends using React, (Semantic) HTML, CSS, and TailwindCSS, ensuring high performance and accessibility.
+Developed UI components with Storybook, enabling consistency and seamless collaboration across teams.
+Followed Agile methodologies to deliver full-stack applications using tools like Git, Next.js, and Laravel, with a focus on accessibility and responsiveness.
+One of my key achievements was leading the frontend development for a client project - Rank my Rental. During this project I gained hands-on experience with many aspects of the SDLC, such as requirements gathering and wireframing. I utilised Laravel's blade templates to build a seamless UI and worked closely with both the backend team and the client to assure a smooth build.
+With a strong foundation in modern frontend technologies and a passion for continuous learning, I’m confident in my ability to contribute to kmfkwmfwemfwemfwelf’s platform division.
+Thank you for considering my application. I look forward to the opportunity to discuss how I can make a positive contribution to your fantastic company.
+Best regards,
+Phillip Hickinbotham
