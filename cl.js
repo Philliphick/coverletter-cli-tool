@@ -41,11 +41,6 @@ async function generateCoverLetter() {
         message: "What is the company name?",
         validate: (input) => (input ? true : "Company name cannot be empty"),
       },
-      //   {
-      //     name: "companyValues",
-      //     message: "What are the company values?",
-      //     default: "innovation, collaboration, and excellence",
-      //   },
       {
         name: "skills",
         message: "What skills would you like to highlight?",
@@ -78,20 +73,14 @@ async function generateCoverLetter() {
     const fileName = `${answers.companyName
       .replace(/\s+/g, "_")
       .toLowerCase()}_cover_letter.pdf`;
+
     doc.pipe(fs.createWriteStream(fileName));
 
-    // Set up the font and spacing
     doc.fontSize(12);
 
-    // Split the filledTemplate into paragraphs and write to the PDF with line breaks after logical sections
-    const paragraphs = filledTemplate.split("\n\n"); // Split by double newline to create paragraphs
-
-    paragraphs.forEach((paragraph, index) => {
-      // Add a line break before and after each paragraph
-      doc.text(paragraph);
-      if (index < paragraphs.length - 1) {
-        doc.moveDown(1); // Add extra line spacing between paragraphs
-      }
+    doc.text(filledTemplate.trim(), {
+      align: "left",
+      lineGap: 6,
     });
 
     // Finalize PDF and end the document stream
