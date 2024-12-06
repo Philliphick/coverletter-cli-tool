@@ -76,6 +76,7 @@ async function generateCoverLetter() {
 
     doc.pipe(fs.createWriteStream(fileName));
 
+    // Set up the font and spacing
     doc.fontSize(12);
 
     doc.text(filledTemplate.trim(), {
