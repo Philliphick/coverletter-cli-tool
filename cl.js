@@ -9,15 +9,16 @@ import PDFDocument from "pdfkit";
 const template = `
 Dear Hiring Team at {{companyName}},
 
-I’m thrilled to apply for the {{jobTitle}} position at {{companyName}}. With hands-on experience in {{skills}} coupled with my passion for creating seamless, accessible, and user-friendly platforms, I’m excited about the opportunity to contribute to your mission of delivering exceptional user experiences.
+I’m thrilled to apply for the {{jobTitle}} position at {{companyName}}. With hands-on experience with tools such as {{skills}} coupled with my passion for creating seamless, accessible, and user-friendly platforms, I’m excited about the opportunity to contribute to your mission of delivering exceptional user experiences.
 
 In my current role as a Junior Developer at {{currentRoleCompany}}, I’ve:
 
--    Built and documented responsive front-ends using React, (Semantic) HTML, CSS,  and TailwindCSS, ensuring high performance and accessibility.
--    Developed UI components with Storybook, enabling consistency and seamless   collaboration across teams.
--    Followed Agile methodologies to deliver full-stack applications using tools like Git,   Next.js, and Laravel, with a focus on accessibility and responsiveness.
+-    Built and documented responsive front-ends using React, implementing concepts such as BEM and progressive enhancement into my workflow, ensuring scalability.
+-    Developed UI components with Storybook following designs for an ecommerce platform.
+-    Followed Agile methodologies working in sprints, and managing workload via kanban boards.
+-    Created a monorepo in Express with various project templates for the purpose of teaching work experience students. 
 
-One of my key achievements was leading the frontend development for a client project - Rank my Rental. During this project I gained hands-on experience with many aspects of the SDLC, such as requirements gathering and wireframing. I utilised Laravel's blade templates to build a seamless UI and worked closely with both the backend team and the client to assure a smooth build.
+One of my key achievements was leading the frontend development for a client project - Rank my Rental. During this project I gained hands-on experience with many aspects of the Software Development Lifecycle, such as requirements gathering and wireframing. I utilised Laravel's blade templates to build a seamless UI and worked closely with the client during the whole development.
 
 With a strong foundation in modern frontend technologies and a passion for continuous learning, I’m confident in my ability to contribute to {{companyName}}’s future success.
 
@@ -45,7 +46,7 @@ async function generateCoverLetter() {
         name: "skills",
         message: "What skills would you like to highlight?",
         default:
-          "React, HTML, CSS, TailwindCSS, Storybook, Git, Next.js, Laravel",
+          "React, HTML, CSS, TailwindCSS, Git, Next.js, Laravel",
       },
       {
         name: "currentRoleCompany",
